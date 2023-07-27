@@ -1,11 +1,11 @@
 import React from "react";
-import { NavData } from "../constants";
+import { navData } from "../constants";
 
 const Navbar = () => {
   return (
     <div className="w-full bg-[#111111] h-20 flex">
       <ul className="flex items-center justify-center mx-auto gap-8 text-[#ffcb74] text-2xl ">
-        {NavData.map((item) => (
+        {navData.map((item) => (
           <li key={item.title} className=" uppercase">
             {item.title}: <span className="text-white">{item.value}</span>
           </li>
@@ -16,3 +16,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
