@@ -2,18 +2,17 @@ import { CustomCardProps } from "../../types";
 
 const CustomCard = ({
   backgroundColor,
+  borderColor,
   value,
   title,
-  isDisabled,
-  isActive,
 }: CustomCardProps) => {
   return (
     <div
-      className={`flex flex-col gap-4 w-[200px] h-[200px] items-center justify-center rounded-xl  border-2 cursor-pointer ${backgroundColor}`}
+      className={`bg-${backgroundColor} flex flex-col gap-4 w-[200px] h-[200px] items-center justify-center rounded-xl border-2  border-${borderColor} cursor-pointer`}
     >
       {value && (
-        <div className="rounded-full  bg-white text-black p-4">
-          <p className="font-bold text-xl">{value}</p>
+        <div className="rounded-full w-[50px] h-[50px] flex items-center justify-center border-4 border-blue-900 bg-white text-black">
+          <p>{value}</p>
         </div>
       )}
       <div>

@@ -1,12 +1,14 @@
+import { MouseEventHandler } from "react";
 export interface CustomCardProps {
-  backgroundColor?: string;
+  backgroundColor: string;
   value?: number;
   title: string;
-  isDisabled?: boolean;
-  isActive?: boolean;
+  borderColor: string;
 };
 
 export interface CustomButtonProps {
-  title:string;
   handleClick?:
-}
+  MouseEventHandler<HTMLButtonElement>;
+  title:string;
+
+};
