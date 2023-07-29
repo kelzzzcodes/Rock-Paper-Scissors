@@ -1,9 +1,6 @@
 import React from "react";
 import { CustomButtonProps } from "../../types";
-const CustomButton = ({
-  title,
-  handleClick,
-}: CustomButtonProps) => {
+const CustomButton = ({ title, handleClick }: CustomButtonProps) => {
   return (
     <button
       onClick={handleClick}
