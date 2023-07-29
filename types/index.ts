@@ -8,7 +8,5 @@ export interface CustomCardProps {
 
 export interface CustomButtonProps {
   title:string;
-  active?: boolean;
-  disabled?: boolean;
   handleClick?:
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from './components';
 import Home from './pages/Home';
 
-function App() {
+function Game() {
   return (
     <>
      <Navbar/>
@@ -11,5 +11,5 @@ function App() {
   );
 }
 
-export default App;
+export default Game;
 
