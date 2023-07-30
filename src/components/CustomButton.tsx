@@ -4,7 +4,7 @@ const CustomButton = ({ title, handleClick }: CustomButtonProps) => {
   return (
     <button
       onClick={handleClick}
-      className="bg-[#111111] px-16 py-4 border-2 border-primary rounded-full text-primary text-2xl font-bold uppercase"
+      className={`custom-btn`}
     >
       {title}
     </button>

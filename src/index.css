@@ -19,3 +19,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rock{
+  background-color: #211f4f;
+  color: #2e4d97;
+  border-color: #2e4d97;
+}
+.paper{
+  background-color: #1a381d;
+  color: #1bc359;
+  border-color: #1bc359;
+}
+.scissors{
+ background-color:  #50091e;
+color:#9a0e30;
+border-color: #9a0e30;
+
+}
+.custom-card {
+  @apply flex flex-col gap-4 w-[200px] h-[200px] items-center justify-center rounded-xl border-4  cursor-pointer
+}
+.custom-circle{
+  @apply rounded-full w-[50px] h-[50px] flex items-center justify-center border-4 border-blue-900 bg-white text-black overflow-hidden
+}
+
+.custom-btn{
+  @apply bg-[#111111] px-16 py-4 border-2 border-primary rounded-full text-primary text-2xl font-bold uppercase
+}
