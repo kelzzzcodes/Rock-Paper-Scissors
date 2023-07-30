@@ -1,6 +1,7 @@
 import React from "react";
 import { CustomCard, CustomButton } from "../components";
 import { customCardsData } from "../constants";
+
 const Home = () => {
   return (
     <div className="w-full flex h-[calc(100vh-5rem)]">
@@ -12,10 +13,7 @@ const Home = () => {
           {customCardsData.map((cardData) => (
             <CustomCard
               key={cardData.title}
-              title={cardData.title}
-              value={cardData.value}
-              backgroundColor={cardData.backgroundColor}
-              borderColor={cardData.borderColor}
+              {...cardData}
             />
           ))}
         </div>

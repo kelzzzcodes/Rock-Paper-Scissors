@@ -1,9 +1,9 @@
-import { MouseEventHandler } from "react";
+import { MouseEventHandler,HTMLProps } from "react";
 export interface CustomCardProps {
-  backgroundColor: string;
   value?: number;
   title: string;
-  borderColor: string;
+  containerStyles: string;
+
 };
 
 export interface CustomButtonProps {
