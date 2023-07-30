@@ -37,7 +37,10 @@ border-color: #9a0e30;
 
 }
 .custom-card {
-  @apply flex flex-col gap-4 w-[200px] h-[200px] items-center justify-center rounded-xl border-4  cursor-pointer
+  @apply  relative flex flex-col gap-4 w-[200px] h-[200px] items-center  justify-end rounded-xl border-4  cursor-pointer
+}
+.custom-card-wrapper{
+  @apply absolute bottom-10 flex flex-col items-center gap-4
 }
 .custom-circle{
   @apply rounded-full w-[50px] h-[50px] flex items-center justify-center border-4 border-blue-900 bg-white text-black overflow-hidden

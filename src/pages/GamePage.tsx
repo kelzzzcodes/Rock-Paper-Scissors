@@ -2,7 +2,7 @@ import React from "react";
 import { CustomCard, CustomButton } from "../components";
 import { customCardsData } from "../constants";
 
-const Home = () => {
+const GamePage = () => {
   return (
     <div className="w-full flex h-[calc(100vh-5rem)]">
       <div className="flex flex-col gap-10 justify-center items-center mx-auto justify-items-center">
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default GamePage;

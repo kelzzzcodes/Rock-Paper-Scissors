@@ -1,12 +1,12 @@
 import React from 'react';
 import { Navbar } from './components';
-import Home from './pages/Home';
+import GamePage from './pages/GamePage';
 
 function Game() {
   return (
     <>
      <Navbar/>
-     <Home/>
+     <GamePage/>
     </>
   );
 }
