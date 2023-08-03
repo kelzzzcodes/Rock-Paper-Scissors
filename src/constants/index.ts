@@ -20,3 +20,8 @@ export const customCardsData = [
     containerStyles: 'scissors',
   },
 ]
+
+export const selectedData = {
+  rock: 'Rock',
+  paper: 'Paper',
+}
