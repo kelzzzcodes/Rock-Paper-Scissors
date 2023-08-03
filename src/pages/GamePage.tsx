@@ -16,7 +16,7 @@ const GamePage = () => {
         </div>
       <div className="flex flex-col gap-10 justify-center items-center  justify-items-center">
 
-      <h2 className="flex capitalize text-xl  text-primary">
+      <h2 className="flex uppercase text-xl  text-primary">
           Pick your Positions
         </h2>
 
