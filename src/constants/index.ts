@@ -9,14 +9,30 @@ export const customCardsData = [
     title: 'Rock',
     value: 500000,
     containerStyles: 'rock',
+    status:true
   },
   {
     title: 'Paper',
     value: 500,
     containerStyles: 'paper',
+
   },
   {
     title: 'Scissors',
     containerStyles: 'scissors',
+
   },
 ]
+
+export const selectedData = [
+  {
+    rock: 'Rock',
+    paper: 'Paper',
+  }
+]
+
+
+
+
+
+
